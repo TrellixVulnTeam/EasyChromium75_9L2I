@@ -617,7 +617,7 @@ template("clang_toolchain") {
   }
 
   gcc_toolchain(target_name) {
-    prefix = "$clang_base_path/bin"
+    prefix = rebase_path("$clang_base_path/bin", root_build_dir)
     cc = "$prefix/clang"
     cxx = "$prefix/clang++"
     ld = cxx
