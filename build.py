@@ -27,4 +27,4 @@ if sys.platform.startswith("linux"):
     err()
 
 elif sys.platform.startswith("win"):
-  os.system(target_path + "windows/build.bat")
+  os.system("call target/windows/build.bat")
