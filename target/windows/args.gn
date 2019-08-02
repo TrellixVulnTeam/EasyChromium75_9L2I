@@ -1,0 +1,10 @@
+is_component_build = true
+is_debug = true
+is_official_build = false
+debug_devtools = false
+treat_warnings_as_errors = false
+proprietary_codecs = true 
+ffmpeg_branding = "Chrome"
+enable_nacl = false
+enable_nacl_nonsfi = false
+optimize_webui = false
