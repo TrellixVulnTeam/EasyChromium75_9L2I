@@ -13,7 +13,7 @@ if not exist "out_windows" (
 copy target\windows\args.gn out_windows\args.gn
 
 cd src
-call gn gen ../out_windows --ide=vs --filters=//chrome
+call gn gen ../out_windows --ide=vs
 call ninja -C ../out_windows chrome
 call ninja -C ../out_windows content_shell
 cd ..
